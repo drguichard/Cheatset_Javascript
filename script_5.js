@@ -12,3 +12,31 @@ const books = [
   { title: 'Voyage au centre de la Terre', id: 4656388, rented: 38 },
   { title: 'Guerre et Paix', id: 748147, rented: 19 }
 ];
+
+console.log("Est-ce que tous les livres ont été au moins empruntés une fois ?");
+console.log(`${books.filter(function(rentals)
+  {return (books.rented <=0)}).length} livres jamais empruntés`);
+
+
+console.log("Quel est livre le plus emprunté ?");
+console.log(`${books.filter(function(mostrented)
+  {return mostrented.rented === Math.max(...books.map(function(mostrented)
+    {return mostrented.rented}))})[0].title} a été emprunté le plus`);
+// {retourne dans book.rented === le chiffre le plus élevé (du array books(éxécute fonction mostrented (qui retourne le livre en première position et le titre)
+
+console.log("Quel est le livre le moins emprunté ?");
+console.log(`${books.filter(function(lessrented)
+  {return lessrented.rented === Math.min(...books.map(function(book)
+    {return lessrented.rented}))})[0].title} a été emprunté le moins`);
+
+console.log("Trouve le livre avec l'ID: 873495") ;
+console.log(`${books.filter(function(bookid)
+  {return bookid.id === 873495})[0].title} correspond à l'id demandé`);
+
+console.log("Supprime le livre avec l'ID: 133712") ;
+console.log(`${books.filter(function(deletion)
+  {return deletion.id === 133712})[0].title} correspond à l'id demandé`);
+console.log(books2 = books.filter(function(deletion){return deletion.id !== 133712}));
+
+console.log("Trie les livres par ordre alphabétique (sans celui avec l'ID 133712 car il est supprimé).");
+console.log(books2.sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0)));

@@ -11,6 +11,13 @@
 * Open test_js.html in your navigator then press Option + Command + i on Mac and clic on "Console" tab.
 * Refresh and look at the results oh the .js operations in the console.
 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	REPOS THAT DONE 6 and 7 (GOD MODE)
+
+(Philippe Gatti)[https://github.com/philippegatti/js]
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	THP LESSON 
