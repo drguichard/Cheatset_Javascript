@@ -16,6 +16,8 @@
 
 	REPOS THAT DONE 6 and 7 (GOD MODE)
 
+(Maxile Norval)[https://github.com/Maxx-N/s7_j4_javascript_exercices_basiques]
+(Nathan)[https://github.com/NathanNT/JS-Script]
 (Philippe Gatti)[https://github.com/philippegatti/js]
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
