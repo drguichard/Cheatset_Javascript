@@ -281,7 +281,10 @@ const multiplyb = (inputNumber1, inputNumber2) => {
 
 
 
-
+function script_1() {
+  answer = prompt("Quel est ton prénom ?");
+  console.log('Bonjour ${answer}');
+}
 
 
 
